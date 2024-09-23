@@ -5,27 +5,30 @@ html body{
 }
 
 .img1{
-    background-image: url(image1.jpeg);
+    background-image: url(image4.jpg);
     
 }
 .img2{
-    background-image: url(image2.jpeg);
+    background-image: url(image5.jpg);
   
 }
 .img3{
-    background-image: url(image3.jpeg);
+    background-image: url(image6.jpg);
     
 }
-.img1 , .img2 , .img3 {
+.img4{
+    background-image: url(image7.jpg);
+}
+.img1 , .img2 , .img3 , .img4{
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
-    
+    background-attachment: fixed;
     
 }
-.text1 , .text2 , .text3 {
+.text1 , .text2 , .text3 , .text4{
     width: 400px;
     height: 50px;
     background-color: grey;
@@ -49,12 +52,14 @@ font-weight: 700;
     color: grey;
 }
 .section2{width:100%;
-    height: 500px;
+    height: 450px;
     line-height: 35px;
     text-align: center;
     background-color: grey;
     color: white;
     line-height: 50px;
+    position: relative;
+    bottom: 25px;
 }
 .head2{
     letter-spacing: 10px;
@@ -71,24 +76,13 @@ p{
     background-color: grey;
     color: white;
     line-height: 45px;
+    position: relative;
+    bottom: 10px;
 }
 .head3{
     letter-spacing: 10px;
     font-size: 35px;
     padding-top: 10px;
 }
-.text4{
-    width: 400px;
-    height: 50px;
-    background-color: grey;
-    color: white;
-    letter-spacing: 0.5em;
-    position: absolute;
-    left: 600px;
-    text-align: center;
-padding-top: 20px;
-font-size: 20px;
-font-weight: 700;
-margin-top: 400px;
-}
+
 
